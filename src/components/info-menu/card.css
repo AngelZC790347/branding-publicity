@@ -1,0 +1,13 @@
+.card-inline{
+    display: inline-flex;
+    height:300px;
+    min-width: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.card-inline img{
+    height: auto;
+    min-width:400px;
+    opacity: 1.0;
+    opacity: 0.7;
+}

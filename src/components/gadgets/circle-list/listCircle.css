@@ -1,0 +1,16 @@
+.li-cir{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid 0.5px gray;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.sec-li{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
