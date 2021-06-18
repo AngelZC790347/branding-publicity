@@ -38,7 +38,9 @@ function App() {
     width:"300%",
     overflow:"hidden",
     height:"100%",
-    animation: "cambio 15s infinite alternate linear"
+    animation: "cambio 15s infinite alternate linear",
+    backgroundImage:"url('https://i1.wp.com/i.pinimg.com/originals/dd/ea/8e/ddea8e88eee0ba4dbb22a44411a01828.jpg')",
+    backgroundRepeat:"repeat"
   }
   let listEl = [];
   let listCard=[];
@@ -52,7 +54,7 @@ function App() {
   const iconStyle="iconWsp";
   return (
     <div className="App">
-      <div style={{height:"32rem"}}>
+      <div style={{height:"50%"}}>
         <div style={landingStyle}>
             {listEl}     
         </div>

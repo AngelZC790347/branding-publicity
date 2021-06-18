@@ -1,8 +1,8 @@
-img{
+.iconWsp img{
     max-width: 100px;
 }
 .iconWsp{
-    position: sticky;
+    position:fixed;
     float:right;
     bottom: 0px;
     right: 0px;

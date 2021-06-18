@@ -8,6 +8,9 @@ body {
   overflow-x: hidden;
   font-family: 'Courier New', Courier, monospace;
 }
+html{
+  overflow-x: hidden;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
