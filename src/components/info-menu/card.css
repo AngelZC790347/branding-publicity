@@ -11,3 +11,8 @@
     opacity: 1.0;
     opacity: 0.7;
 }
+.card-inline:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate3D(0,0,1,180deg);
+}

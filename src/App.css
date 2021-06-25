@@ -17,3 +17,10 @@
 	75%{margin-left: -200%;}
 	100%{margin-left: -200%;}
 }
+ @keyframes tranSlice{
+	0%{margin-left:0};
+	50%{margin-left:0%;}
+
+	50%{margin-left: -100%;}
+	100%{margin-left: -100%;}
+ }

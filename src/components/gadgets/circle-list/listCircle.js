@@ -1,16 +1,15 @@
-import React from 'react';
-import './listCircle.css'
+import React, { useState } from 'react';
+import './listCircle.css';
 const CircleList = (props) =>{
-    console.log(props.numbOfLi);
-    console.log(props.indexOfItem);
+    const [boldCircle,setBoldCircle]=useState(props.indexOfItem-1);
     const numbOfLi = props.numbOfLi;
     let arrayOfLi=[];
     for (let index = 0; index < numbOfLi; index++) {
         let bColor;
-        if(index===props.indexOfItem){
+        if(index===boldCircle){
             bColor="black"
         }
-        let element=<li key={index} ><a><div style={{backgroundColor:bColor}} className="li-cir"></div></a></li>;
+        let element=<li key={index} ><a onClick={()=>{setBoldCircle(index);props.handleTransition(index);}}><div style={{backgroundColor:bColor}} className="li-cir"></div></a></li>;
         arrayOfLi.push(element);
     }
     return (
